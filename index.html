@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Italiana&family=Jacques+Francois&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Jewels By Me</title>
+  </head>
+  <body>
+    
+    <div class="container">
+
+      <header class="header">
+          <nav class="nav">
+            <a class="nav__list-link" href="#">Shop</a>
+            <a class="nav__list-link" href="#">Product</a>
+            <a class="nav__list-link" href="#">About Us</a>
+          </nav>
+
+          <div class="logo">Jewels By Me</div>
+          
+        <div class="header__search">
+          <input class="header__search-input">
+          <svg class="header__search-icon">
+            <use href="assets/icons/sprite.svg#search"/>
+          </svg>
+        </div>
+        
+
+      </header>
+
+    <main>
+      <div class="container">
+        <section class="full-section">
+            <picture class="full-section-picture">
+              <source srcset="assets/img/first-screen-05.webp" media="(max-width: 768px)" />
+              <source srcset="assets/img/first-screen-075.webp" media="(max-width: 1024px)" />
+              <source srcset="assets/img/first-screen.webp" media="(min-width: 1440px)" />
+              <img class="full-section-img" src="assets/img/first-screen.jpg" alt="A girl in jewellery" />
+            </picture>
+          <div class="full-section-content">
+            <h1 class="full-section-title">EXCLUSIVE JEWELERY DESIGNS</h1>
+            <p class="full-section-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit justo ut lacinia facilisis. Phasellus scelerisque ut eros sit amet scelerisque. Nam vitae nulla ut arcu dictum eleifend vitae et dui. </p>
+            <button>Explore Now</button>
+          </div>
+        </section>
+      </div>
+      <section class="category-section">
+        <h2 class="category-section-title">
+          JEWELS BY CATEGORY
+        </h2>
+        <p class="category-section-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit justo ut lacinia facilisis. Phasellus scelerisque ut eros sit amet scelerisque. Nam vitae nulla ut arcu dictum eleifend vitae et dui. 
+        </p>
+        <div class="category-section-gallery">
+          <div class="category-section-gallery--left">
+            <picture>
+              <source srcset="assets/img/1-05.webp" media="(max-width: 768px)" />
+              <source srcset="assets/img/1-075.webp" media="(max-width: 1024px)" />
+              <source srcset="assets/img/1.webp" media="(min-width: 1440px)" />
+              <img class="category-section-gallery-img" src="assets/img/1.jpg" alt="Jewellery gallery" />
+            </picture>
+            <picture>
+              <source srcset="assets/img/2-05.webp" media="(max-width: 768px)" />
+              <source srcset="assets/img/2-075.webp" media="(max-width: 1024px)" />
+              <source srcset="assets/img/2.webp" media="(min-width: 1440px)" />
+              <img class="category-section-gallery-img" src="assets/img/2.jpg" alt="Jewellery gallery" />
+            </picture>
+          </div>
+
+          <div class="category-section-gallery--right">
+            <picture>
+              <source srcset="assets/img/3-05.webp" media="(max-width: 768px)" />
+              <source srcset="assets/img/3-075.webp" media="(max-width: 1024px)" />
+              <source srcset="assets/img/3.webp" media="(min-width: 1440px)" />
+              <img class="category-section-gallery-img" src="assets/img/3.jpg" alt="Jewellery gallery" />
+            </picture>
+            <picture>
+              <source srcset="assets/img/4-05.webp" media="(max-width: 768px)" />
+              <source srcset="assets/img/4-075.webp" media="(max-width: 1024px)" />
+              <source srcset="assets/img/4.webp" media="(min-width: 1440px)" />
+              <img class="category-section-gallery-img" src="assets/img/4.jpg" alt="Jewellery gallery" />
+            </picture>
+          </div>
+        </div>
+      </section>
+      <section class="make-you-section">
+        
+        <div class="make-you-section-content">
+          <h2 class="make-you-section-title">Jewels that <span class="make-you-section-title--white">make you</span></h2>
+          <p class="make-you-section-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A numquam quae veniam ducimus. Eos, iusto at aspernatur architecto iure voluptatum. Iste molestiae, aut atque vitae quaerat nulla totam exercitationem reiciendis saepe.
+          </p>
+          <button>Shop Now</button>
+        </div>
+
+        <picture class="make-you-section-picture">
+          <source srcset="assets/img/hands-05.webp" media="(max-width: 768px)" />
+          <source srcset="assets/img/hands-75.webp" media="(max-width: 1024px)" />
+          <source srcset="assets/img/hands-1.webp" media="(min-width: 1440px)" />
+          <img src="assets/img/hands-1.jpg" alt="A girl hands in jewellery" />
+        </picture>
+
+      </section>
+      <section class="customer-section">
+        <div class="customer-section-inner">
+          <div class="customer-section-content">
+            <h3 class="customer-section-title">Our customer review</h3>
+            <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit justo ut lacinia facilisis. Phasellus scelerisque ut eros sit amet scelerisque. Nam vitae nulla ut arcu dictum eleifend vitae et dui. 
+            </blockquote>
+            <cite class="customer-section-cite">-Samantha Jones</cite>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="logo">Jewels By Me</div>
+
+        <nav class="nav">
+          <a class="nav__list-link" href="#">Shop</a>
+          <a class="nav__list-link" href="#">Product</a>
+          <a class="nav__list-link" href="#">About Us</a>
+        </nav>
+  
+        <div class="footer-socials">
+          <a href="#" class="footer-socials-link">
+            <svg class="footer-socials-icon">
+              <use href="/assets/icons/sprite.svg#instagram"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-socials-link">   
+            <svg class="footer-socials-icon">
+              <use href="/assets/icons/sprite.svg#twitter"/>
+            </svg>
+          </a>
+          <a href="#" class="footer-socials-link">
+            <svg class="footer-socials-icon">
+              <use href="/assets/icons/sprite.svg#facebook"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer-copy">
+        &#169; all rights reserved
+      </p>
+
+    </footer>
+  </body>
+</html>
