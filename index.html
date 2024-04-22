@@ -10,28 +10,26 @@
     <title>Jewels By Me</title>
   </head>
   <body>
-    
     <div class="container">
-
       <header class="header">
-          <nav class="nav">
-            <a class="nav__list-link" href="#">Shop</a>
-            <a class="nav__list-link" href="#">Product</a>
-            <a class="nav__list-link" href="#">About Us</a>
-          </nav>
-
-          <div class="logo">Jewels By Me</div>
-          
-        <div class="header__search">
-          <input class="header__search-input">
-          <svg class="header__search-icon">
+        <nav class="header-nav nav">
+          <a data-goto=".make-you-section" href="#shop" class="header-nav-link">Shop</a>
+          <a data-goto=".category-section" href="#products" class="header-nav-link">Product</a>
+          <a data-goto=".customer-section" href="#about-us" class="header-nav-link">About Us</a>
+        </nav>
+        <div ><a href="#" class="logo">Jewels By Me</a></div>
+        <div class="menu-btn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="header-search">
+          <input class="header-search-input">
+          <svg class="header-search-icon">
             <use href="assets/icons/sprite.svg#search"/>
           </svg>
         </div>
-        
-
-      </header>
-
+    </header>
     <main>
       <div class="container">
         <section class="full-section">
@@ -48,7 +46,7 @@
           </div>
         </section>
       </div>
-      <section class="category-section">
+      <section class="category-section" id="products">
         <h2 class="category-section-title">
           JEWELS BY CATEGORY
         </h2>
@@ -70,7 +68,6 @@
               <img class="category-section-gallery-img" src="assets/img/2.jpg" alt="Jewellery gallery" />
             </picture>
           </div>
-
           <div class="category-section-gallery--right">
             <picture>
               <source srcset="assets/img/3-05.webp" media="(max-width: 768px)" />
@@ -87,8 +84,7 @@
           </div>
         </div>
       </section>
-      <section class="make-you-section">
-        
+      <section class="make-you-section" id="shop">
         <div class="make-you-section-content">
           <h2 class="make-you-section-title">Jewels that <span class="make-you-section-title--white">make you</span></h2>
           <p class="make-you-section-text">
@@ -96,16 +92,14 @@
           </p>
           <button>Shop Now</button>
         </div>
-
         <picture class="make-you-section-picture">
           <source srcset="assets/img/hands-05.webp" media="(max-width: 768px)" />
           <source srcset="assets/img/hands-75.webp" media="(max-width: 1024px)" />
           <source srcset="assets/img/hands-1.webp" media="(min-width: 1440px)" />
           <img src="assets/img/hands-1.jpg" alt="A girl hands in jewellery" />
         </picture>
-
       </section>
-      <section class="customer-section">
+      <section class="customer-section" id="about-us">
         <div class="customer-section-inner">
           <div class="customer-section-content">
             <h3 class="customer-section-title">Our customer review</h3>
@@ -116,17 +110,14 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="footer-inner">
-        <div class="logo">Jewels By Me</div>
-
-        <nav class="nav">
-          <a class="nav__list-link" href="#">Shop</a>
-          <a class="nav__list-link" href="#">Product</a>
-          <a class="nav__list-link" href="#">About Us</a>
+        <div ><a href="#" class="logo">Jewels By Me</a></div>
+        <nav class="footer-nav nav">
+          <a href="#shop">Shop</a>
+          <a href="#products">Product</a>
+          <a href="#about-us">About Us</a>
         </nav>
-  
         <div class="footer-socials">
           <a href="#" class="footer-socials-link">
             <svg class="footer-socials-icon">
@@ -145,11 +136,10 @@
           </a>
         </div>
       </div>
-
       <p class="footer-copy">
         &#169; all rights reserved
       </p>
-
     </footer>
+    <script src="main.js"></script>
   </body>
 </html>
